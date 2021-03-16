@@ -7,6 +7,8 @@
 ![Auto Install](https://img.shields.io/badge/-Auto%20Install%20App-orange.svg)
 ![VCL and FMX](https://img.shields.io/badge/-VCL%20and%20FMX-lightgrey.svg)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C53LVFN)
+
 ![Design Example](images/design_example.png)
 
 - [What's New](#whats-new)
@@ -19,6 +21,10 @@
 - [Global Functions](#global-functions)
 
 ## What's New
+
+- 03/13/2021 (Version 3.4)
+
+   - Removed CompInstall.exe from component sources due to AV false positive warning (now you can get it directly from CompInstall repository).
 
 - 02/01/2021 (Version 3.3)
 
@@ -74,7 +80,9 @@ So, I decided to build this component to become an easy way to search files.
 
 ### Auto install
 
-Close Delphi IDE and run **CompInstall.exe** app to auto install component into Delphi.
+1. Download Component Installer from: https://github.com/digao-dalpiaz/CompInstall/releases/latest
+2. Put **CompInstall.exe** into the component repository sources folder.
+3. Close Delphi IDE and run **CompInstall.exe** app.
 
 ### Manual install
 
